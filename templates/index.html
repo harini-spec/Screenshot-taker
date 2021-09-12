@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Home</title>
+
+  <link rel="stylesheet" href="{{ url_for('static', filename='style1.css') }}">
+</head>
+
+<body>
+ <div class="login">
+	<h1>Screenshot Taker</h1>
+
+    <form action = "/screenshot_name" method="post">
+    	<input type="text" name="test" placeholder="Save your file name as" required="required" />
+        <button type="submit" class="btnGenerate">Save</button>
+    </form>
+
+</div>

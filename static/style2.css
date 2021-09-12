@@ -1,0 +1,64 @@
+body {
+  animation: 10000ms ease-in-out infinite color-change;
+  color: black;
+}
+
+@keyframes color-change {
+  0% {
+    background-color: #fdf5ca;
+  }
+  20% {
+    background-color: #d5eebb;
+  }
+  40% {
+    background-color: #deba9d;
+  }
+  60% {
+    background-color: #9ddac6;
+  }
+  80% {
+    background-color: #efb7b7;
+  }
+  100% {
+    background-color: #f7e6ad;
+  }
+}
+
+.btn {
+  background-color: #4927e2;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  position: absolute;
+  top: 51%;
+  transform: translateY(-50%);
+  left: 43.5%;
+  width: 15%;
+  border-radius: 15px;
+}
+
+.btn1 {
+  background-color: #4927e2;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  position: absolute;
+  top: 60%;
+  transform: translateY(-50%);
+  left: 46%;
+  width: 10%;
+  border-radius: 15px;
+}
+
+.para{
+  margin: 15% auto;
+  text-align: center;
+  width: 50%;
+  font-size: 25px;
+  font-family: "Open Sans", sans-serif;
+}
+
