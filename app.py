@@ -14,6 +14,8 @@ def save():
     text = request.form['test']
     return render_template('success.html')
 
+#clone
+
 @app.route('/take_screenshot',methods = ['GET'])
 def download():
     screenshot(text)
